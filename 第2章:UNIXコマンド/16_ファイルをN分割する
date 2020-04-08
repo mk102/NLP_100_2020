@@ -1,0 +1,2 @@
+VAR=$(cat ./popular-names.txt | wc -l)
+split -l $(($VAR/$1)) ./popular-names.txt

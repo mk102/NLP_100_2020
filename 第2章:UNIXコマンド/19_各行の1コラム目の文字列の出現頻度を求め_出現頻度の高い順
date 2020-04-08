@@ -1,0 +1,1 @@
+cut -d " " -f 1 ./popular_names_2.txt | sort |uniq -c | sort -k 3 -t " " -r

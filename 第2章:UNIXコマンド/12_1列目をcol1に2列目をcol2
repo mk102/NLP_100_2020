@@ -1,0 +1,2 @@
+cut -d " " -f 1 ./popular_names_2.txt > ./col1.txt
+cut -d " " -f 2 ./popular_names_2.txt > ./col2.txt
